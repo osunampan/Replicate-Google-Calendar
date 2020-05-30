@@ -3,9 +3,7 @@ import { Appointment } from './appointment.type';
 @Component({
   selector: 'my-app',
   template: `
-    <pre>
-    {{appointments|json}}
-    </pre>
+   
     <app-calendar [appointments]="appointments" 
       (requestNewAppointment)="onRequestNewAppointment($event)"
       (requestUpdateAppointment)="onRequestUpdateAppointment($event)"

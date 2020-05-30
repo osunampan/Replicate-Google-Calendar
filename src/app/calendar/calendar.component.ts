@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, SimpleChanges, OnChanges, Component, OnInit, ViewChild, ElementRef, AfterViewInit, OnDestroy, Input, EventEmitter, Output } from '@angular/core';
 import { Appointment } from '../appointment.type';
-import $ from 'jquery';
+import * as $ from 'jquery';
 import { Moment } from 'Moment';
-import 'ng-fullcalendar';
+import 'fullcalendar';
 
 @Component({
   selector: 'app-calendar',
